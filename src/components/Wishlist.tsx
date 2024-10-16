@@ -7,10 +7,7 @@ import {
   selectWishlistState,
   toggleWishlist,
 } from "../app/features/wishlist/wishlistSlice";
-import {
-  ChevronDoubleLeftIcon,
-  ChevronDoubleRightIcon,
-} from "@heroicons/react/24/outline";
+import { ChevronDoubleRightIcon } from "@heroicons/react/24/outline";
 
 const Wishlist = () => {
   const wishlistState = useAppSelector(selectWishlistState);

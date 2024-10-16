@@ -1,7 +1,7 @@
 // import React from "react";
 import { MinusIcon, PlusIcon, TrashIcon } from "@heroicons/react/24/outline";
 import { useDispatch } from "react-redux";
-import { ICartItemProps, ICartItemState } from "../../types/types";
+import { ICartItemState } from "../../types/types";
 import {
   setAddItemToCart,
   setDecreaseItemQTY,
